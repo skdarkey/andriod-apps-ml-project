@@ -1,0 +1,27 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.9.19
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.5.0
+mlflow_version: 2.13.0
+model_size_bytes: 3630
+model_uuid: 592f5f02c95846e8a772773b4de48681
+run_id: f16f087a2f7b4bf8b1b5ec662cda23d4
+signature:
+  inputs: '[{"type": "string", "name": "Category", "required": true}, {"type": "string",
+    "name": "Type", "required": true}, {"type": "string", "name": "Content_Rating",
+    "required": true}, {"type": "double", "name": "Size_MBs", "required": true}, {"type":
+    "string", "name": "Price", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float64", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2024-06-27 00:35:45.431564'
