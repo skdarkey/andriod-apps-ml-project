@@ -21,6 +21,7 @@ The following technologies were used at different stages:
 - AWS ECS : For deployment of application container.
 
 ## Project Structure
+```
 │
 ├── notebooks/
 │   ├── Google_Play_Store_App_Analytics.ipynb : Preliminary Data Analytics notebook and visualizations
@@ -28,7 +29,7 @@ The following technologies were used at different stages:
 │   └── Google_Play_Store_App_Analytics.csv : Data used.
 │
 ├── models/
-│   ├── numinstalls_lin_reg2.bin : saved model for predicting number of installs
+│   └── numinstalls_lin_reg2.bin : saved model for predicting number of installs
 │
 ├── apps_model_deploy/
 │   ├── Pipfile : packages used in model deployment.
@@ -46,3 +47,4 @@ The following technologies were used at different stages:
 │   └── apps-local-inferencing-results.png: deployed model's outputs
 │
 └── README.md
+```
