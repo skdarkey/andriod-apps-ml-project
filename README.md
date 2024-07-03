@@ -51,16 +51,16 @@ The following technologies were used at different stages:
 ## Deployment Screenshots
 
 * AWS ECS Cluster showing the running service.
-![here](assets\apps-Cluster.png)
+![here](assets/apps-Cluster.png)
 
 * Running Service
-![here](assets\apps-Service.png)
+![here](assets/apps-Service.png)
 
 * Task definition
-![here](assets\apps-task_definition.png)
+![here](assets/apps-task_definition.png)
 
 * Overwiew of running Task showing container details and public IP
-![here](assets\apps-Task showing container running.png)
+![here](assets/apps-Task-showing-container-running.png)
 
 * Deployed model output
-![here](assets/apps-local inferencing results.png)
+![here](assets/apps-local-inferencing-results.png)
